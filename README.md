@@ -13,7 +13,9 @@
 
 
 * What observations or questions do you have about what you’ve learned so far?
+
 I have learned a lot in the first few days, the teaching team is really doing great
 
 * How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+
 I thought it will take 3 hours and It took me exactly 3 hours
