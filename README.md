@@ -6,10 +6,10 @@
 [Your TODOs Wireframe Link](https://www.figma.com/file/JyT1W7u3BQnfbEacHAHDRI/Your-TODOs?node-id=0%3A1)
 
 1. Home Page
-![Home](assets/home.png)
+![Home](Assets/home.png)
 
 2. About Page
-![About](assets/about.png)
+![About](Assets/about.png)
 
 
 * What observations or questions do you have about what you’ve learned so far?
