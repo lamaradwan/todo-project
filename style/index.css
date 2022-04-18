@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+    
+}
+
+:root{
+    --headerColor: #81beb7;
+    --footerColor: #443E3D;
+    --bodyColor: #A3E9DE;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--headerColor);
+    height: 85px;
+    width: 100%;
+    align-items: center;
+}
+.logo{
+    height: 70px;
+    margin-top: 10px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+}
+.h1{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.body1{
+    background-image: url(../assets/todo_bg.jpeg);
+    overflow: hidden;
+    background-size: cover;
+}
+.nav{
+    margin-right: 100px;
+}
+a{
+    padding: 29px;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    height: inherit;
+    transition: background-color 0.3s;
+}
+a:hover{
+    background-color: var(--footerColor);
+}
+#container{
+    position: relative;
+    top: 150px;
+    left: 250px
+}
+h5{
+    font-size: 2em;
+}
+#table{
+    margin-top: 25px;
+}
+#table tr td{
+    border: 1.5px solid black;
+    border-collapse: collapse;
+}
+tr td{
+    padding: 10px 20px;
+}
+.done{
+    background-color: rgb(81, 158, 81);
+    color: white;
+}
+.inProgress{
+    background-color: rgb(224, 169, 49);
+    color: white;
+}
+.pending{
+    background-color: rgb(206, 31, 31);
+    color: white;
+}
+footer{
+    background-color: var(--footerColor);
+    height: 55px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+h4{
+    color: white;
+    position: relative;
+    left: 40%;
+    top: 30%;
+}

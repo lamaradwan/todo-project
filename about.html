@@ -5,21 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/index.css">
 </head>
-<body>
-    <header>
-        <img src="Assets/logo.png" alt="logo" height="100px">
-        <h1>Your TODOs</h1>
+<body class="body2">
+    <header class="header">
+        <div class="title">
+        <img src="Assets/logo.png" alt="logo" class="logo">
+        <h1 class="h1">Your TODOs</h1>
+        </div>
+        <div class="nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
+        </div>
     </header>
     <main>
-       <img src="Assets/profile.png" alt="profile picture" width="200px">
+        <div class="intro">
+       <img src="assets/profile.png" alt="profile picture" width="200px">
+       <div class="name_bio">
        <h1>Lama Radwan</h1>
        <p>A QA Engineer who is switching her career path to the 
         Software Development</p>
+        </div>
+        </div>
+        <div class="about_you">
         <h2>About You</h2>
-        <hr>
         <form action="#">
             <!--Name Textfield-->
             <label for="name">Name:</label>
@@ -43,14 +53,15 @@
             <textarea id="msg" rows="6" cols="20" placeholder="Enter your message here ..">
             </textarea>
             <!--Upload an image-->
-            <label for="img">Upload Photo: </label>
-            <input type="file" id="img">            
+            <label for="img" class="upload">Upload Photo: </label>
+            <input type="file" id="img" class="upload">            
             <br>
             <button type="submit">Submit</button>
         </form>
+        </div>
     </main>
     <footer>
-        <h4>2022 - Copy Rights - Your TODOs By Lama Radwan</h4>
+        <h4>&copy; 2022 - Copy Rights - Your TODOs By Lama Radwan</h4>
     </footer>
 </body>
 </html>
