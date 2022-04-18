@@ -5,41 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your TODOs</title>
+    <link rel="stylesheet" href="style/index.css">
 </head>
-<body>
-    <header>
-        <img src="Assets/logo.png" alt="logo" height="100px">
-        <h1>Your TODOs</h1>
+<body class="body1">
+    <header class="header">
+        <div class="title">
+        <img src="assets/logo.png" alt="logo" class="logo">
+        <h1 class="h1">Your TODOs</h1>
+        </div>
+        <div class="nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
+        </div>
     </header>
-    <main>
+    <main id="container">
         <h5>Simple As you GO ..</h5>
-        <table>
+        <table id="table">
             <tr>
-                <td>Task</td>
-                <td>Status</td>
+                <td><h3>Task</h3></td>
+                <td><h3>Status</h3></td>
             </tr>
             <tr>
                 <td>Reading about the Internet Protocols</td>
-                <td>Done</td>
+                <td class="done">Done</td>
             </tr>
             <tr>
                 <td>Solving the HTML task</td>
-                <td>In Progress</td>
+                <td class="inProgress">In Progress</td>
             </tr>
             <tr>
                 <td>Go for Shopping</td>
-                <td>Pending</td>
+                <td class="pending">Pending</td>
             </tr>
             <tr>
                 <td>Make the Dinner</td>
-                <td>Pending</td>
+                <td class="pending">Pending</td>
             </tr>
         </table>
     </main>
     <footer>
-        <h4>2022 - Copy Rights - Your TODOs By Lama Radwan</h4>
+        <h4>&copy; 2022 - Copy Rights - Your TODOs By Lama Radwan</h4>
     </footer>
 </body>
 </html>

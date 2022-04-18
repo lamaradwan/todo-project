@@ -1,0 +1,64 @@
+:root{
+    --headerColor: #81beb7;
+    --footerColor: #443E3D;
+    --bodyColor: #A3E9DE;
+}
+.body2{
+    background-color: var(--bodyColor);
+    overflow: hidden;
+}
+main{
+    background-color: white;
+    position: absolute;
+    width: 85%;
+    height: 70%;
+    top: 17%;
+    left: 7%;
+}
+.intro{
+    position: relative;
+    display: flex;
+    left: 5%;
+    align-items: center;
+    top: 30px;
+}
+.name_bio{
+    position: relative;
+    left: 2%;
+}
+.about_you{
+    position: relative;
+    top: 10%;
+    left: 5%;
+}
+h2{
+    margin-bottom: 10px;
+}
+form input, textarea{
+    border-radius: 5px;
+    border: 1px solid var(--headerColor);   
+}
+form input, label, button, textarea{
+    padding: 10px 15px;
+
+}
+textarea{
+    position: relative;
+    top: 20px;
+}
+.upload{
+    position: relative;
+    bottom: 75px;
+}
+button{
+    position: relative;
+    left: 280px;
+    bottom: 50px;
+    cursor: pointer;
+    color: var(--footerColor);
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray;
+    font-size: 1.4em;
+}
