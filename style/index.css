@@ -35,7 +35,7 @@
     color: white;
 }
 .body1{
-    background-image: url(../Assets/todo_bg.JPEG);
+    background-image: url(../Assets/todo_bg.jpeg);
     overflow: hidden;
     background-size: cover;
 }
