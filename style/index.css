@@ -38,6 +38,8 @@
     background-image: url(../Assets/todo_bg.jpeg);
     overflow: hidden;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 2cm;
 }
 .nav{
     margin-right: 100px;
@@ -96,4 +98,39 @@ h4{
     position: relative;
     left: 40%;
     top: 30%;
+}
+@media (max-width: 414px){
+    .body1{
+        background-color: var(--bodyColor);
+        overflow: hidden;
+        background-position: -0.5cm;
+        background-position-y: 2cm;
+    }
+    #container{
+        left: 50px;
+        top: 35px;
+    }
+    tr td{
+        padding: 5px 10px;
+        font-size: 12px
+    }
+    h5{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #table{
+        margin-top: 106px;
+    }
+    h4{
+        left: 16%;
+        font-size: 14px;
+    }
+    .h1{
+        margin-left: 14px;
+        margin-top: 3px;
+    }
+    .nav{
+        margin-right: 0;
+        padding: 24px;
+    }
 }
