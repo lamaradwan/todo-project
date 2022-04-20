@@ -18,4 +18,4 @@ I have learned a lot in the last few days, the team is really doing great
 
 * How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
 
-I thought it will take 3 hours and It took me exactly 2.5 hours
+I thought it will take 1 hours and It took me exactly half an hour
